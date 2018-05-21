@@ -10,9 +10,11 @@
 	<array>
 		<string>group.com.fileformatnet.appgroup</string>
 	</array>
+	<key>get-task-allow</key>
+  <true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>$(AppIdentifierPrefix)com.fileformatnet.keychain</string>
+		<string>U9T36T8J82.com.fileformatnet.keychain</string>
 	</array>
 </dict>
 </plist>

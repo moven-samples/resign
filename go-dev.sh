@@ -15,4 +15,5 @@ PROVISIONING_PROFILE=../certs/Integration_Dev_Reader_U9T36T8J82.mobileprovision
   --bundle-id "$BUNDLE_ID" \
   --display-name "$DISPLAY_NAME" \
   --entitlements "$ENTITLEMENTS" \
+  --verbose \
   $OUTPUT
