@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>U9T36T8J82.com.fileformatnet.reader</string>
+	<key>com.apple.developer.team-identifier</key>
+    <string>U9T36T8J82</string>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.fileformatnet.appgroup</string>
+	</array>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>$(AppIdentifierPrefix)com.fileformatnet.keychain</string>
+	</array>
+</dict>
+</plist>
