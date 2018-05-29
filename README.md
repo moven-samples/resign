@@ -20,7 +20,7 @@ You also need to pick a value for the shared keychain group.  In this doc, I am 
   * `com.movencorp.b2bpartner.bca`
   * `nz.co.westpac.moven.cst`
 
-## Generating an unsigned `.ipk` file
+## Generating an unsigned `.ipa` file
 
 The app identifier goes in the .env as `MOVEN_APP_ID`.
 
@@ -48,7 +48,7 @@ Notes:
  * Choose decent names.  I like `TheApp Xxx`, so everything for a single app is grouped together.  If XCode auto-created one, you can rename it.
  * I found it easier to download the provision profiles to a local directory with decent names.  XCode will also download them to a shared location with GUID names.
  * If you change anything with the App ID, you will need to regenerate and redownload the corresponding provisioning profile.
- * You need to know the "Identity" of the certificate.  This is the string in the keychain for the certificate (not the private key).  It has the developer's ID in it, not the team ID.
+ * You need to know the "Identity" of the certificate.  This is the string in the keychain for the certificate (not the private key).  It has the developer's ID in it, not the team ID.  You can use `security find-identity -v -p codesigning` to list the installed identities.
 
 ## Making a new `.entitlements` file
 
